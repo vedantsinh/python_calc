@@ -82,3 +82,14 @@ def _createDisplayLED(self):
             buttonsLayout.addWidget(self.buttons[btnText], pos[0], pos[1])
         # Add buttonsLayout to the general layout
         self.generalLayout.addLayout(buttonsLayout)
+
+
+
+
+
+
+
+
+
+
+        
