@@ -3,7 +3,9 @@ import sys
 
 from PyQt5.QtWidgets import QApplication
 from view import GUI
+from model import evaluateExpression
 
+model = evaluateExpression
 # Client code
 def main():
     """Main function."""

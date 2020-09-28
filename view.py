@@ -8,7 +8,7 @@ from PyQt5.QtWidgets import QPushButton
 from PyQt5.QtWidgets import QVBoxLayout
 
 class GUI(QMainWindow):
-    """PyCalc's View (GUI)."""
+    #"""PyCalc's View (GUI)."""
     def __init__(self):
         """View initializer."""
         super().__init__()
@@ -36,7 +36,7 @@ class GUI(QMainWindow):
         self._createDisplayLED()
         self._createButtons()
 def _createDisplayLED(self):
-        """Create the display."""
+        #"""Create the display."""
         
         # Create the display widget
         self.display = QLineEdit()
@@ -50,8 +50,8 @@ def _createDisplayLED(self):
 
 
         def _createButtons(self):
-        """Create the buttons."""
-        self.buttons = {}
+       # """Create the buttons."""
+             self.buttons = {}
         buttonsLayout = QGridLayout()
         # Button text | position on the QGridLayout
         buttons = {'7': (0, 0),
