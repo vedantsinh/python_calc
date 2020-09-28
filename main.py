@@ -5,6 +5,9 @@ from PyQt5.QtWidgets import QApplication
 from view import GUI
 from model import evaluateExpression
 
+from controller import Controller
+Controller(model=model, view=view)
+
 model = evaluateExpression
 # Client code
 def main():
