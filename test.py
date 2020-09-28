@@ -6,6 +6,7 @@ from PyQt5.QtWidgets import QWidget
 
 app = QApplication(sys.argv)
 
+
 window = QWidget()
 window.setWindowTitle('PyQt5 App')
 window.setGeometry(100, 100, 280, 80)
